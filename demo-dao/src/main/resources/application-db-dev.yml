@@ -1,0 +1,13 @@
+# 应用名称
+#spring:
+#  application:
+#   name: demo-dao
+master:
+  datasource:
+    url: jdbc:mysql://10.138.228.68:3100/ts_test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&allowMultiQueries=true
+    username: ts_admin
+    password: Haier,123
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+
+

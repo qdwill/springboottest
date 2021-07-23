@@ -1,0 +1,14 @@
+# 应用名称
+spring:
+  application:
+  profiles:
+    active: common-@profileActive@, db-@profileActive@, core-@profileActive@
+  messages:
+    encoding: UTF-8
+#   name: demo-api
+# 应用服务 WEB 访问端口
+server:
+ port: 8080
+
+
+
